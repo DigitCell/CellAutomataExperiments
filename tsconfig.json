@@ -1,0 +1,31 @@
+{
+
+	"compilerOptions": {
+        "baseUrl": "./src",
+        "outDir": "./dist",
+        "module": "es6",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "target": "es6",
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": false,
+        "removeComments": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "traceResolution": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowSyntheticDefaultImports": true,
+        "typeRoots": [ "./node_modules/@webgpu/types", "./node_modules/@types"],
+        "strictPropertyInitialization": false,
+    },
+
+	"include": [
+		"./project/src",
+	],
+
+	"exclude": [
+		"node_modules"
+	]
+}
