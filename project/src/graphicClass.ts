@@ -3,7 +3,7 @@ import * as dat from 'dat.gui';
 
 import vertWGSL from './shaders/vert.wgsl';
 import fragWGSL from './shaders/frag.wgsl';
-import computeWGSL from './compute_shaders/compute3.wgsl';
+import computeWGSL from './compute_shaders/computeNoise01.wgsl';
 
 
 
